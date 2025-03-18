@@ -1,0 +1,4 @@
+{
+  "name": "Spring Boot Problem Details Demo Container",
+  "image": "mcr.microsoft.com/devcontainers/java:21"
+}

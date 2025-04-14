@@ -10,7 +10,7 @@ This project includes two examples of using Problem Details.
 1. Using the `spring.mvc.problemdetails.enabled` to atomically convert Spring Boot errors into Problem Details.
 2. Manually creating a Problem Detail but using a Controller Advice exception handler.
 
-The test suite demostrates the above scenarios and are a good entry place into the codebase.
+The test suite demonstrates the above scenarios and are a good entry place into the codebase.
 
 ## Why
 

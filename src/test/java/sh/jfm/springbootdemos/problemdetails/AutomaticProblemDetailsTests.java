@@ -9,6 +9,9 @@ import org.springframework.boot.test.web.server.LocalServerPort;
 import static io.restassured.RestAssured.given;
 import static net.javacrumbs.jsonunit.JsonMatchers.jsonEquals;
 
+/**
+ * Tests automatic conversion of standard Spring Boot errors through app configuration
+ */
 @SpringBootTest(
         webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT,
         properties = {"spring.mvc.problemdetails.enabled=true"}

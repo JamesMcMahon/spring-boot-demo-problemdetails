@@ -10,6 +10,9 @@ import static io.restassured.RestAssured.given;
 import static net.javacrumbs.jsonunit.JsonMatchers.jsonEquals;
 import static org.hamcrest.Matchers.equalTo;
 
+/**
+ * Test manual Problem Details creating through controller advice
+ */
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class ProblemDetailControllerTests {
     @LocalServerPort

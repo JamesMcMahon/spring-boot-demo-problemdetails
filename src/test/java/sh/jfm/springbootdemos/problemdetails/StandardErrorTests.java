@@ -9,6 +9,9 @@ import org.springframework.boot.test.web.server.LocalServerPort;
 import static io.restassured.RestAssured.given;
 import static net.javacrumbs.jsonunit.JsonMatchers.jsonEquals;
 
+/**
+ * Tests standard Spring Boot errors as a delta to the Problem Details implementation
+ */
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class StandardErrorTests {
     @LocalServerPort

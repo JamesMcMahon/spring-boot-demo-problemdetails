@@ -5,6 +5,7 @@ for [Problem Details](https://docs.spring.io/spring-framework/reference/web/webm
 
 ## What
 
+Problem Details support was introduced in Spring 6 and Spring Boot 3.
 This project includes two examples of using Problem Details.
 
 1. Using the `spring.mvc.problemdetails.enabled` to atomically convert Spring Boot errors into Problem Details.
